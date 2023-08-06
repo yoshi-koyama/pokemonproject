@@ -34,7 +34,7 @@ public class Main {
         if (!trainers.containsKey(trainerName.toLowerCase())) {
             throw new TrainerNotFoundException("Trainer not found");
         }
-        List<Pokemon> pokemons = trainers.get(trainerName);
+        List<Pokemon> pokemons = trainers.get(trainerName.toLowerCase());
         for (Pokemon pokemon : pokemons) {
             System.out.println("Pokemon's name and type: " + pokemon.getName() + ", " + pokemon.getType());
         }
