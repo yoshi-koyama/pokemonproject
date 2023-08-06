@@ -25,9 +25,9 @@ IntelliJを使ってプロジェクトを開いてください。
 プログラムを実行し、Ashを入力。  
 Ashの手持ちポケモンが標準出力される。
 
-<img width="378" alt="スクリーンショット 2023-08-06 12 47 06" src="https://github.com/yoshi-koyama/pokemonproject/assets/62045457/4e0617da-ccb8-4f0d-b232-8f3253f16e6d">
+<img width="398" alt="スクリーンショット 2023-08-06 14 08 19" src="https://github.com/yoshi-koyama/pokemonproject/assets/62045457/86edbccf-8d7b-43e5-a65f-d8de5d5d83cf">
 
-プログラムを実行し、Ashを入力。  
+プログラムを実行し、ashを入力。  
 Ashの手持ちポケモンが標準出力される。
 
 <img width="376" alt="スクリーンショット 2023-08-06 12 49 22" src="https://github.com/yoshi-koyama/pokemonproject/assets/62045457/17cff86d-b8f7-4abf-a698-65af11842960">
