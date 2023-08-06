@@ -29,12 +29,12 @@ public class Main {
         // なお、ash、Ashは同じtrainerとして扱う
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter trainer name: ");
-        String trainerName = scanner.nextLine();
+        String trainerName = scanner.nextLine().toLowerCase();
         // trainerがいない場合にTrainerNotFoundExceptionをthrowして処理を終了する
-        if (!trainers.containsKey(trainerName.toLowerCase())) {
+        if (!trainers.containsKey(trainerName)) {
             throw new TrainerNotFoundException("Trainer not found");
         }
-        List<Pokemon> pokemons = trainers.get(trainerName.toLowerCase());
+        List<Pokemon> pokemons = trainers.get(trainerName);
         for (Pokemon pokemon : pokemons) {
             System.out.println("Pokemon's name and type: " + pokemon.getName() + ", " + pokemon.getType());
         }
