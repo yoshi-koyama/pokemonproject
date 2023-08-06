@@ -9,7 +9,7 @@
 ### 1. プロジェクトをクローンする
 
 ```
-git clone
+git clone git@github.com:yoshi-koyama/pokemonproject.git
 ```
 
 ### 2. プロジェクトを開く
