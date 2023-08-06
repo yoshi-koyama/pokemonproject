@@ -1,4 +1,4 @@
-# PokemonMap
+# pokemonproject
 
 ## 概要
 
